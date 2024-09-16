@@ -39,7 +39,7 @@ const TodoItem = ({ todo, onDeleteTodo, toggleTodo, onEditTodo }) => {
             <>
               <input
                 type="text"
-                className="rounded-md border-0 mx-2 py-1 md:py-1.5 pl-2 md:pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 outline-none placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-500 sm:text-sm "
+                className="rounded-md w-3/4 md:w-full border-0 mx-2 py-1 md:py-1.5 pl-2 md:pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 outline-none placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-orange-500 sm:text-sm "
                 value={content}
                 onChange={(e) => setContent(e.target.value)}
                 data-testid="edit-input"
